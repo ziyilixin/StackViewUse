@@ -1,0 +1,23 @@
+//
+//  StackView.pch
+//  StackView
+//
+//  Created by hjbsj on 2018/6/21.
+//  Copyright © 2018年 hjb. All rights reserved.
+//
+
+#ifndef StackView_pch
+#define StackView_pch
+
+#define kSCreenWidth [UIScreen mainScreen].bounds.size.width
+#define kSCreenHeight [UIScreen mainScreen].bounds.size.height
+
+#define kStatusBarHeight [[UIApplication sharedApplication] statusBarFrame].size.height
+#define kTopHeight 44.0
+#define kNavigationBarHeight (kStatusBarHeight + kTopHeight)
+
+#define RadomColor [UIColor colorWithRed:random()%256/255.0 green:random()%256/255.0 blue:random()%256/255.0 alpha:1]
+
+#import <Masonry/Masonry.h>
+
+#endif /* StackView_pch */
