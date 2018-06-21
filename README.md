@@ -50,9 +50,11 @@ typedef NS_ENUM(NSInteger, UIStackViewAlignment) {
 self.stackView.alignment = UIStackViewAlignmentFill;
 ```
 
-##subView
+## subView
+```objc
 /**
  addArrangedSubview 添加子视图
  removeArrangedSubview 删除子视图
  insertArrangedSubview: atIndex: 根据下标插入子视图
  */
+```
