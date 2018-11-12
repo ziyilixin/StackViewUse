@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BB0CBF1B21997A3500080BD5 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = BB0CBF1A21997A3500080BD5 /* 1.png */; };
+		BB0CBF1D21997A3A00080BD5 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = BB0CBF1C21997A3A00080BD5 /* 2.png */; };
+		BB0CBF1F21997A3E00080BD5 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = BB0CBF1E21997A3E00080BD5 /* 3.png */; };
+		BB0CBF2121997A4200080BD5 /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = BB0CBF2021997A4200080BD5 /* 4.png */; };
 		BB84002E20DA46650095D213 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BB84002D20DA46650095D213 /* AppDelegate.m */; };
 		BB84003120DA46650095D213 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB84003020DA46650095D213 /* ViewController.m */; };
 		BB84003420DA46650095D213 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB84003220DA46650095D213 /* Main.storyboard */; };
@@ -38,6 +42,10 @@
 /* Begin PBXFileReference section */
 		1F6B626CD919CE5A1C85B9D8 /* Pods-StackView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StackView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StackView/Pods-StackView.debug.xcconfig"; sourceTree = "<group>"; };
 		38FA10E41378B8653413CFD9 /* libPods-StackView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-StackView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB0CBF1A21997A3500080BD5 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		BB0CBF1C21997A3A00080BD5 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		BB0CBF1E21997A3E00080BD5 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		BB0CBF2021997A4200080BD5 /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
 		BB84002920DA46650095D213 /* StackView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StackView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB84002C20DA46650095D213 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BB84002D20DA46650095D213 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -103,6 +111,17 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		BB0CBF19219979B500080BD5 /* Picture */ = {
+			isa = PBXGroup;
+			children = (
+				BB0CBF1A21997A3500080BD5 /* 1.png */,
+				BB0CBF1C21997A3A00080BD5 /* 2.png */,
+				BB0CBF1E21997A3E00080BD5 /* 3.png */,
+				BB0CBF2021997A4200080BD5 /* 4.png */,
+			);
+			path = Picture;
+			sourceTree = "<group>";
+		};
 		BB84002020DA46650095D213 = {
 			isa = PBXGroup;
 			children = (
@@ -124,6 +143,7 @@
 		BB84002B20DA46650095D213 /* StackView */ = {
 			isa = PBXGroup;
 			children = (
+				BB0CBF19219979B500080BD5 /* Picture */,
 				BB9196A520DB4D30007E8FF2 /* images */,
 				BB84002C20DA46650095D213 /* AppDelegate.h */,
 				BB84002D20DA46650095D213 /* AppDelegate.m */,
@@ -237,12 +257,16 @@
 				BB84003920DA46660095D213 /* LaunchScreen.storyboard in Resources */,
 				BB9196BB20DB4D3E007E8FF2 /* 222_16.jpg in Resources */,
 				BB84003620DA46660095D213 /* Assets.xcassets in Resources */,
+				BB0CBF1D21997A3A00080BD5 /* 2.png in Resources */,
+				BB0CBF1B21997A3500080BD5 /* 1.png in Resources */,
+				BB0CBF1F21997A3E00080BD5 /* 3.png in Resources */,
 				BB84003420DA46650095D213 /* Main.storyboard in Resources */,
 				BB9196C320DB4D3E007E8FF2 /* 222_9.jpg in Resources */,
 				BB9196BD20DB4D3E007E8FF2 /* 222_7.jpg in Resources */,
 				BB9196BF20DB4D3E007E8FF2 /* 222_15.jpg in Resources */,
 				BB9196B720DB4D3E007E8FF2 /* 222_12.jpg in Resources */,
 				BB9196C420DB4D3E007E8FF2 /* 222_6.jpg in Resources */,
+				BB0CBF2121997A4200080BD5 /* 4.png in Resources */,
 				BB9196B920DB4D3E007E8FF2 /* 222_5.jpg in Resources */,
 				BB9196B820DB4D3E007E8FF2 /* 222_14.jpg in Resources */,
 				BB9196BE20DB4D3E007E8FF2 /* 222_1.jpg in Resources */,
