@@ -2,10 +2,10 @@
 StackView使用
 
 屏幕截图
-![]()
-![]()
-![]()
-![]()
+![](https://github.com/ziyilixin/StackViewUse/blob/master/StackView/StackView/Picture/1.png?raw=true)
+![](https://github.com/ziyilixin/StackViewUse/blob/master/StackView/StackView/Picture/2.png?raw=true)
+![](https://github.com/ziyilixin/StackViewUse/blob/master/StackView/StackView/Picture/3.png?raw=true)
+![](https://github.com/ziyilixin/StackViewUse/blob/master/StackView/StackView/Picture/4.png?raw=true)
 
 ## axis
 ```objc
